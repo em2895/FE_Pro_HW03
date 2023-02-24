@@ -1,4 +1,5 @@
-let n = 12345;
-let s = String(n);
+let n = String.raw`12345`;
 
-console.log(s.split(''));
+n.length;
+
+console.log(n.split('').join(' '));
